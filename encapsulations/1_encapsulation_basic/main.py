@@ -15,5 +15,5 @@ class Wizard:
         self.name = name
         self.__stamina = stamina
         self.__intelligence = intelligence
-        self.health = stamina * 100
-        self.mana = intelligence * 10
+        self.health = self.__stamina * 100
+        self.mana = self.__intelligence * 10
